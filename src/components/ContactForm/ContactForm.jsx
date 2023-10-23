@@ -41,7 +41,7 @@ export const ContactForm = () => {
     }
 
     if (hasNamberDuplicate(number)) {
-      alert(` ${number} is already in contacts`);
+      alert(` Number ${number} is already in contacts`);
       return;
     }
 
